@@ -115,7 +115,6 @@ const createEmployeePayrollJSON =() => {
             _Salary: '30000',
             _StartDate: '10-04-2022',
             _note:'',
-            _id: new Date.getTime(),
             _profile: 'image/profile2.jpg'
         }
     ];
