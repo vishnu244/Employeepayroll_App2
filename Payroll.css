@@ -129,3 +129,32 @@ td img{
     display: inline-block;
     margin-bottom: 8px;
 }
+.main{
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 800px) {
+    th{
+        background-color:#42515f ;
+        border-radius: 0px;
+        text-align: left;
+        color: white;
+        padding: 10px 20px ;
+    }
+    .Add-User
+{
+    margin-left: 400px;
+    padding: 10px;
+    background-color: green;
+    border: none;
+}
+
+.Icon{
+    padding:2px;
+    display:flex;
+    flex-direction:row;
+    height:25%;
+    width:25%;
+    margin:2px;
+}
+}
